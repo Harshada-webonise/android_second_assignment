@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="app_name">Login</string> 
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="Name">Name</string>
+    <string name="Password">Password</string>
+    <string name="Save">Save</string>
+    <string name="Address">Address</string>
+    <string name="maritalstatus">maritalstatus</string>
+    <string name="Gender">Gender</string>
+    <string name="Hobbies">Hobbies</string>
+    <string name="Playing">Playing</string>
+    <string name="Reading">Reading</string>
+    <string name="Singing">Singing</string>
+    <string name="Next">Next</string>
+    <string name="Rating">Rating</string>
+    <string name="Name::">Name::</string>
+    <string name="Address::">Address::</string>
+    <string name="Gender::">Gender::</string>
+    <string name="Marital::">Marital::</string>
+     <string name="Hobby::">Hobby::</string>
+     <string name="Rating::">Rating::</string>
+    
+</resources>

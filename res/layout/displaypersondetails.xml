@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    
+    
+     <TextView
+         android:id="@+id/nameTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/Name::"/>
+     
+     
+      <TextView
+        android:id="@+id/namevalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toRightOf="@+id/nameTextView"/>
+     
+       <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Address::"
+        android:layout_below="@+id/nameTextView"/>
+         
+  
+        <TextView
+        android:id="@+id/addressvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/nameTextView"
+        android:layout_toRightOf="@+id/addressTextView"/>
+     
+    
+         <TextView
+         android:id="@+id/genderTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/Gender::"
+         android:layout_below="@+id/addressTextView"/>
+         
+         <TextView
+         android:id="@+id/genderValue"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:layout_below="@+id/addressTextView"
+         android:layout_toRightOf="@+id/genderTextView"/>
+         
+     
+          <TextView
+         android:id="@+id/maritalStatusTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/Marital::"
+         android:layout_below="@+id/genderTextView"/>
+         
+         <TextView
+         android:id="@+id/maritalStatusValue"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:layout_below="@+id/genderTextView"
+         android:layout_toRightOf="@+id/genderTextView"/>
+         
+           <TextView
+         android:id="@+id/hobbyTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/Hobby::"
+         android:layout_below="@+id/maritalStatusTextView"/>
+         
+         <TextView
+         android:id="@+id/hobbyValue"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:layout_below="@+id/maritalStatusTextView"
+         android:layout_toRightOf="@+id/hobbyTextView"/>
+         
+         
+         
+           <TextView
+         android:id="@+id/ratingTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/Rating::"
+         android:layout_below="@+id/hobbyTextView"/>
+         
+         <TextView
+         android:id="@+id/ratingValue"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:layout_below="@+id/hobbyTextView"
+         android:layout_toRightOf="@+id/ratingTextView"/>
+         
+         
+        
+    
+
+</RelativeLayout>
